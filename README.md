@@ -12,3 +12,7 @@ pip3  install kodipydent
 1. from kodipydent import Kodi
 2. my_kodi = Kodi('localhost', username='kodi', password='s1ptest')
 3. my_kodi.Player.Open(item={'file':'plugin://plugin.video.youtube/?action=play_video&videoid=DT4kQlM5xuE'})
+
+
+Auto start Script on kodi:
+1. https://kodi.wiki/view/Autoexec_Service
